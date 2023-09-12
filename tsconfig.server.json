@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "dist/",
+        "noEmit": false
+    },
+    "include": [
+        "server",
+        "utils",
+        "models",
+        "batch"
+    ]
+}
